@@ -1,0 +1,63 @@
+"""Citeste de la tastatura un numar x
+- afiseaza pe ecran suma cifrelor sale.
+
+a=0
+nr=0
+def num():
+  a=int(input())
+  if a==0:
+        ++nr
+  else:
+    while a!=0:
+      ++nr
+      a=a/10
+print(nr)
+
+num()
+
+http://pythontutor.com/visualize.html#mode=display
+- daca toate cifrele sale sunt pare, afiseaza un mesaj care sa arate asta
+- afiseaza numarul cifrelor pare si impare ale lui x
+- afiseaza suma cifrelor pare si suma cifrelor impare
+- afiseaza daca numarul este palindrom* sau nu (palindrom = citind cifrele sale de la dreapta la stânga se obţine acelaşi număr ex 12321)
+
+
+Citeste de la tastatura numere pana se citeste valoarea 0. apoi:
+- Sa se afiseze cel mai mare numar citit de la tastatura
+- Sa se afiseze suma numerelor impare citite
+- Sa se afiseze numarul maxim de numere citite consecutiv crescator
+(exemplu:
+1 2 3 0 -> 3 numere (1 2 3)
+1 2 0 3 4 5 -> 3 numere (3 4 5)
+5 3 2 0 -> 0 numere
+5 3 1 2 -> 2 numere (1 2)
+)
+
+#incepem
+int n, i, x[100], nr, aux, inv;
+def functie1():
+       print("n=")
+       input(n)
+       for x in
+
+        for()
+
+
+        retun 0;
+x=int(input())
+print()
+while(x>0)
+    int ultim=x%10
+"""
+
+par=0
+for i in range(0,100):
+#print(i)
+  if i%2==0:
+    par=par+i
+  print("par",par)
+    break
+  if i < 10:
+    print("mai mic ca" , i)
+  if i>10 and i<20:
+    print("nr intre 10 si 20", i)
