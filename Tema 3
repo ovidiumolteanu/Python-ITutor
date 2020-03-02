@@ -1,0 +1,17 @@
+class fisier:
+lista=[]
+
+
+    def __init__(nume)
+
+
+
+    def deschide()
+deschide=open()
+print(deschide.read)
+lista=["primul", "doi", "trei","patru"]
+
+
+
+    def inchide()
+inchide=inchide.close()
